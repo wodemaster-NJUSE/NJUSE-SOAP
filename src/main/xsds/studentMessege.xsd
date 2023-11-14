@@ -1,0 +1,16 @@
+<!-- 学生信息的Schema数据类型 -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.com/student" xmlns:student="http://www.example.com/student">
+    <!-- 定义学生信息结构 -->
+    <xs:element name="student">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="studentId" type="xs:string"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="gender" type="xs:string"/>
+                <xs:element name="birthdate" type="xs:date"/>
+                <xs:element name="grade" type="xs:string"/>
+                <xs:element name="class" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
