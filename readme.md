@@ -33,3 +33,11 @@
 3. 运行translate.java
 4. 运行XMLFilter.java
 
+也可以直接执行run.sh文件
+
+
+
+部分运行截图：
+
+![image-20231114174503123](C:\Users\wodemaster\AppData\Roaming\Typora\typora-user-images\image-20231114174503123.png)
+
